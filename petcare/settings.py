@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'dprofile',
-    'home'
+    'home',
+    'booking'
 ]
 
 
@@ -46,6 +47,9 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
+
+
+
 
 
 MIDDLEWARE_CLASSES = [
